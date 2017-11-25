@@ -11,7 +11,9 @@ struct node
 
 void append(int num)
 {
-    struct node *temp,*up;
+<<<<<<< HEAD
+    struct node *temp,*down;
+>>>>>>> d6e131271e34a61e489c6b94fee2ce84f80ee563
     temp= (struct node *)malloc(sizeof(struct node));
     temp->data=num;
     right=(struct node *)head;
